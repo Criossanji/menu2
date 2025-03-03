@@ -1,0 +1,133 @@
+/* General Styles */
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #FFF3E0;
+    /* Light croissant-themed background */
+    color: #5D4037;
+    /* Dark brown for text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFAB91;
+    /* Soft orange */
+    padding: 20px;
+    text-align: center;
+}
+
+header .header-content p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+header h1 {
+    color: #D84315;
+    /* Warm orange */
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.logo,
+.halal-logo {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFCCBC;
+    /* Light orange */
+    padding: 10px;
+}
+
+nav button {
+    background-color: #FF7043;
+    /* Bright orange */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #FF5722;
+    /* Darker orange */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #D84315;
+    /* Warm orange */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    background-color: #FFE0B2;
+    /* Light croissant color */
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item img {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.item-info h3 {
+    margin: 0;
+    color: #D84315;
+    /* Warm orange */
+}
+
+.item-info p {
+    margin: 5px 0;
+}
+
+.calories {
+    font-size: 14px;
+    color: #6D4C41;
+    /* Darker brown */
+}
+
+.price {
+    font-weight: bold;
+    color: #D84315;
+    /* Warm orange */
+}
+
+footer {
+    background-color: #FFAB91;
+    /* Soft orange */
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
